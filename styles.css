@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     height: 100vh;
     align-items: center;
-    font-size: 35px;
+    font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -14,7 +14,9 @@ body{
 
 header{
     background-color: white;
-    padding: 18px;
+    padding: 8px;
+    width: auto;
+    border-color: red;
 }
 
 .navbar{
@@ -31,14 +33,14 @@ header{
 .navbar a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     margin: 16px;
 }
 
 .navbar-left{
     display: flex;
     flex-direction: row;
-    margin-right: 900px;
+    margin-right: 550px;
 }
 
 .btn-success {
@@ -48,7 +50,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 7px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .my-button {
@@ -58,7 +60,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 7px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .navbar a:hover {
@@ -73,8 +75,8 @@ header{
 }
 
 .navbar-left img {
-    width: 115px;
-    height: 70px;
+    width: 80px;
+    height: 50px;
 }
 
 .container img {
@@ -85,13 +87,15 @@ header{
 
 .container {
     background-color:  #1e3932;
-    margin-top: 1px;
+    max-height: 420px;
+    max-width: 1610px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
 
 .container-starbucks{
-    padding: 8%;
+    padding: 6%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
