@@ -3,9 +3,11 @@ body{
     flex-direction: column;
     height: 100vh;
     align-items: center;
-    font-size: 45px;
+    font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/*MENU*/
 
 * {
     padding: 0;
@@ -13,10 +15,11 @@ body{
 }
 
 header{
+    padding: 20px 0px;
+    width: 1400PX;
+    position: fixed;
+    z-index: auto;
     background-color: white;
-    padding: 8px;
-    width: auto;
-    border-color: red;
 }
 
 .navbar{
@@ -33,8 +36,9 @@ header{
 .navbar a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     margin: 16px;
+    letter-spacing: 0.25em;
 }
 
 .navbar-left{
@@ -75,9 +79,12 @@ header{
 }
 
 .navbar-left img {
-    width: 80px;
+    width: 90px;
     height: 50px;
 }
+
+
+/*BLOQUE PRINCIPAL*/
 
 .container img {
     width: 700px;
@@ -87,9 +94,9 @@ header{
 
 .container {
     background-color:  #1e3932;
-    max-height: 420px;
-    max-width: 1610px;
-    margin-top: 10px;
+    max-height: auto;
+    max-width: 1400px;
+    margin-top: 85px;
     display: flex;
     flex-direction: row;
 }
@@ -113,4 +120,58 @@ header{
     font-size: 20px;
     line-height: 250%;
     font-weight: 100;
+}
+
+/*BLOQUE VERDE*/
+
+#container-green{
+    background-color: #1e3932;
+    width: 2000px;
+}
+
+/*BLOQUE AZUL*/
+
+#container-blue{
+    background-color: #0044b4;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    padding: 0%;
+}
+
+#container-blue h2{
+    line-height: 150%;
+    font-weight: 100;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 32px 16px;
+}
+
+#container-blue p{
+    line-height: 180%;
+    display: block;
+    unicode-bidi: isolate;
+    padding: 8px;
+}
+
+/*BLOQUE ROJO*/
+
+#container-red{
+    background-color: #d50032;
+    margin-top: 30px;
+}
+
+/*BLOQUE GREEN 2*/
+
+#container-green-2{
+    background-color: #1e3932;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+/*BLOQUE RED 2*/
+
+#container-red-2 {
+    background-color: #d50032;
+    width: 2000px;
+    margin-top: 30px;
 }
