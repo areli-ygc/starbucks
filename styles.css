@@ -175,3 +175,48 @@ header{
     width: 2000px;
     margin-top: 30px;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-box{
+    background-color: #ef91bd;
+    border: 10px solid white;
+    margin-top: 30px;
+    width: 690px;
+    height: 800px;
+    text-align: center;
+}
+
+.flex-box img{
+    width: 690px;
+ }
+
+ .flex-box p{
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d50032;
+    font-size: 18px;
+    margin: 100px 220px 0px;
+ }
+
+.flex-box1{
+    background-color: #91b7ef;
+    border: 10px solid white;
+    margin-top: 30px;
+    width: 690px;
+    text-align: center;
+}
+
+ .flex-box1 img{
+    width: 690px;
+ }
+
+ .flex-box1 p{
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c00ff;
+    font-size: 18px;
+    margin: 100px 280px 0px;
+ }
